@@ -1,0 +1,21 @@
+.movies_list{
+    max-width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 20px;
+    justify-content: space-around;
+}
+
+@media (max-width: 830px) {
+    .movies_list{
+        grid-template-columns: 48% 48%;
+    }
+}
+@media (max-width: 560px) {
+    .movies_list{
+        grid-template-columns: 100%;
+    }
+}
